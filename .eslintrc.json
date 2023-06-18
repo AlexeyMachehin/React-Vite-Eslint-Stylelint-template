@@ -60,5 +60,11 @@
         "react": {
             "version": "detect"
         }
-    }
+    },
+    "exclude": [
+        "test",
+        "node_modules",
+        "dist",
+        "**/*.js"
+    ]
 }
