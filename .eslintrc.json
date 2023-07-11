@@ -32,11 +32,9 @@
             1,
             {
                 "extensions": [
+                    ".js",
                     ".ts",
                     ".tsx",
-                    ".js",
-                    ".jsx",
-                    ".js",
                     ".jsx"
                 ]
             }
@@ -62,11 +60,5 @@
         "react": {
             "version": "detect"
         }
-    },
-    "exclude": [
-        "test",
-        "node_modules",
-        "dist",
-        "**/*.js"
-    ]
+    }
 }
